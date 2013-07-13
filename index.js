@@ -10,7 +10,7 @@ function mkDeserializeUser(dbi) {
     }
     find()
   }
-})
+}
 
 // Create a function to implement PassportJS serializeUser function.
 function serializeUser(user, done) {
