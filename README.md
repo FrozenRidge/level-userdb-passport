@@ -25,3 +25,4 @@ Passport.deserializeUser(helpers.deserializeUser)
 Passport.serializeUser(helpers.serializeUser)
 
 ```
+
