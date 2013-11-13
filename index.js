@@ -3,7 +3,7 @@
 function mkDeserializeUser(dbi) {
   return function(email, done) {
     function find() {
-      dbi.findUser(email, found())
+      dbi.findUser(email, found)
     }
     function found(err, user) {
       done(err, user)
